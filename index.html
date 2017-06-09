@@ -20,7 +20,8 @@
 </head>
 
 <body>
-<a href="javascript:void(0);" class="scroll-top" title="Scroll to top" style="display: none;"><span></span></a>
+<a href="javascript:void(0);" class="scroll-top" title="Scroll to top" style="display: none;"><i class="fa fa-arrow-up fa-3x" aria-hidden="true"></i>
+</a>
 <header>
   <div class="container animated fadeIn">
     <div class="row">
@@ -186,19 +187,15 @@
     </div>
   </div>
 </footer>
+<!-- <div id="loader0">
+<div id="loader"></div>
+</div>
+ -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
-    // $(document).ready(function(){
-    //   $(".navc").hover(function(){
-    //       $(".navc").toggleClass("circle");
-    //   });
-    // });
+  
       $('.wobbleMe').hover(function(){
           $('.wobbleMe').toggleClass('animated wobble');
-      });
-
-      $('.bucket-img').hover(function(){
-        $('.bucket-img').toggleClass('animated tada');
       });
       $('.input1').click(function(){
         $('.input1').toggleClass('animated bounce');
@@ -210,16 +207,16 @@
       $('.nav-hover1').hover(function(){
         $('.nav-hover1').toggleClass('animated bounce');
       });
-  $('.nav-hover2').hover(function(){
+    $('.nav-hover2').hover(function(){
         $('.nav-hover2').toggleClass('animated bounce');
       });
-  $('.nav-hover3').hover(function(){
+    $('.nav-hover3').hover(function(){
         $('.nav-hover3').toggleClass('animated bounce');
       });
-  $('.nav-hover4').hover(function(){
+    $('.nav-hover4').hover(function(){
         $('.nav-hover4').toggleClass('animated bounce');
       });
-  $('.nav-hover5').hover(function(){
+    $('.nav-hover5').hover(function(){
         $('.nav-hover5').toggleClass('animated bounce');
       });
       $('.menu-trigger').click(function(){
@@ -238,6 +235,11 @@
             $('.scroll-top').fadeOut();
           }
       });
+
+      // var overlay=document.getElementById("loader0");
+      // window.addEventListener("load",function(){
+      //   overlay.style.display="none";
+      // });
 </script>
 </body>
 </html>
