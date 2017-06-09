@@ -1,26 +1,8 @@
-/*
-*************************************************************************************
--------------------------------------------------------------------------------------
-
-                          Author           :     Anurag Harsh
-						  Website          :     taskbucket.org
-						  Creation Date    :     20th January 2017
-_____________________________________________________________________________________
-                                   
-/////////////////////////////////////////////////////////////////////////////////////
-*/
-
-
 
 /*
 *************************************************************************************
                                    Header Styles
 /////////////////////////////////////////////////////////////////////////////////////
-*/
-/*
-************************************
-     Large Screen Device Styles                              
-////////////////////////////////////
 */
 
 /*universal rule*/
@@ -456,33 +438,43 @@ footer [class=col-sm-5] small{
 }
 
 						/*scroller*/
-.scroll-top{
+
+[class=scroll-top] i{
 	position: fixed;
 	right: 10px;
 	bottom: 10px;
 	width: 50px;
 	height: 50px;
-	border-radius: 60px;
 	cursor: pointer;
 	text-decoration: none;
-	background-color:#f55d3e;
-	border: 1px solid #ffe882;
 	z-index: 50;
+	margin:0 auto;
+	color: #333;
 }
-.scroll-top:hover{
-	border:3px solid #ffe882;
+/*
+#loader0{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top:0;
+	z-index: 999;
+	background: rgba(0,0,0,0.8);
+	margin: 0 auto;
+}
+#loader {
+    border: 3px solid #fff; 
+    border-top: 16px solid #f55d3e; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+    top: 0;
+    left: 0; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}*/
